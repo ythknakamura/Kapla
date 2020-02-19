@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>積み木はどこまではみだせる？</title>
+<meta name="Description" content="" />
+<meta name="Keywords"  content="" />
+
+<link rel="stylesheet" type="text/css" media="screen,print" href="style.css" />
+</head>
+<body>
+<h1>積み木はどこまで<br/>はみだせる？</h1>
+
+<p>
+積み木の数が
+<input type="number" min="1" value="1" id="numOfBlocks" onChange="numChanged();"/>
+個の場合
+<input type="button" value="計算実行" onClick="drawBlocks();"/>
+</p>
+    
+<p id="result"></p>
+<canvas id="world"></canvas>
+
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  padding: 10px;
+  border: 1;
+}
+
+body,html {
+  background: #dff;
+  font: 12pt sans-serif;
+}
+input{
+    margin:0px 10px;
+}
+
+canvas{
+    border: 4px solid #ccc;
+}
+
+input#numOfBlocks{
+    width: 50px;
+    text-align:right;
+}
+
+p#result{
+    text-align: left;
+    margin-left: 50px;
+}
